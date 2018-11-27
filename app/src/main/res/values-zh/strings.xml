@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">你好</string>
+    <string name="led_1_txt">LED 灯 1</string>
+    <string name="led_2_txt">LED 灯 2</string>
+    <string name="led_3_txt">LED 灯 3</string>
+    <string name="led_ctrl">LED 控制</string>
+    <string name="turn_on">开启</string>
+    <string name="loading_bluetooth">稍等，蓝牙开启中。</string>
+    <string name="pair_device">器材同步</string>
+    <string name="off">关</string>
+    <string name="unpair_device">卸载器材</string>
+    <string name="nearby_list">附近器材</string>
+    <string name="checking_hc05">搜索蓝牙器材 HC05</string>
+    <string name="bluetooth_fail">蓝牙开启失败！</string>
+    <string name="connect">连接</string>
+    <string name="bluetooth_status">蓝牙状态</string>
+    <string name="is_paired">是否同步</string>
+    <string name="connecting">连接中</string>
+    <string name="paired_list_title">已连接器材</string>
+    <string name="startup_info">开启资讯</string>
+    <string name="ctrl_status">控制台状态</string>
+    <string name="not_in_list">不在本机器材栏</string>
+    <string name="bluetooth_on">蓝牙已开启。</string>
+    <string name="paired_status">HC05 同步状态：</string>
+    <string name="shut_down">蓝牙 已经关闭。</string>
+    <string name="ask_for_pair">是否连接？</string>
+    <string name="app_name">蓝牙 连接 阿杜伊诺(Arduino)</string>
+    <string name="title">阿杜伊诺(Arduino)-蓝牙-控制台</string>
+    <string name="on">开启</string>
+    <string name="turn_off">关闭</string>
+</resources>

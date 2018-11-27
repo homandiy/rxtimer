@@ -1,0 +1,34 @@
+<resources>
+    <string name="title">Arduino Bluetooth Control Platform</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ctrl_status">LED Controls are not available.</string>
+    <string name="led_ctrl">LED Controls</string>
+    <string name="led_3_txt">LED 3 Switch:</string>
+    <string name="led_1_txt">LED 1 Switch:</string>
+    <string name="led_2_txt">LED 2 Switch:</string>
+    <string name="bluetooth_status">Bluetooth Status:</string>
+    <string name="off">OFF</string>
+    <string name="app_name">Bluetooth Connection To Arduino</string>
+    <string name="paired_status">HC05 Paired Status:</string>
+    <string name="not_in_list">Not in this list</string>
+    <string name="pair_device">Pair Device</string>
+    <string name="unpair_device">UnPair Device</string>
+    <string name="ask_for_pair">Do you want to connect?</string>
+    <string name="bluetooth_fail">Bluetooth is activated!\\nExit the program.</string>
+    <string name="is_paired">is paired.</string>
+    <string name="checking_hc05">Checking Bluetooth Module HC05.</string>
+    <string name="connecting">Connecting: \\n</string>
+    <string name="startup_info">Startup info</string>
+    <string name="bluetooth_on">Bluetooth is ON.</string>
+    <string name="connect">Connect</string>
+    <string name="paired_list_title">Paired Devices</string>
+    <string name="nearby_list">Nearby Devices</string>
+    <string name="loading_bluetooth">Plaese wait! Turning Bluetooth ON!</string>
+    <string name="turn_on">Turn ON</string>
+    <string name="shut_down">Bluetooth has shut down.</string>
+    <string name="on">ON</string>
+    <string name="turn_off">Turn OFF</string>
+
+</resources>

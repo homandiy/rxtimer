@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/listCL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:id="@+id/titleLV"
+            app:layout_constraintTop_toTopOf="parent">
+        <TextView
+                android:text="Device Name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/devTitleTV"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"/>
+        <TextView
+                android:text="Address"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addressTitleTV"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+
+            android:name="com.homanhuang.bluetoothled.bluetoothDeviceFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".View.Fragment.DeviceListFragment"
+            tools:listitem="@layout/fragment_device"
+            tools:itemCount="5"
+
+            app:layout_constraintTop_toBottomOf="@+id/titleLV" android:id="@+id/deviceListRV"/>
+
+</android.support.constraint.ConstraintLayout>
