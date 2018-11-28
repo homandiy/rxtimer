@@ -12,12 +12,6 @@ public abstract class BaseFragment extends Fragment {
     // the root view
     protected View rootView;
 
-    /**
-     * navigation presenter instance
-     * declared in base for easier access
-     */
-    protected BasePresenter presenter;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle
@@ -28,11 +22,4 @@ public abstract class BaseFragment extends Fragment {
 
     protected abstract int getLayout();
 
-    /**
-     * set the navigation presenter instance
-     * @param presenter
-     */
-    public void attachPresenter(BasePresenter presenter) {
-        this.presenter = presenter;
-    }
 }
